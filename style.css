@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  background-color: rgb(203, 206, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-box {
+  border: 2px solid rgb(203, 206, 240);
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px rgb(128, 129, 141);
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-left{
+  width: 40%;
+}
+.user{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-left img {
+  margin: 10px 0px -5px;
+  width: 50px;
+  filter: drop-shadow(2px 1px 5px rgb(128, 129, 141));
+}
+.user-name h3{
+  color:blueviolet;
+  font-size: 20px;
+  margin: 10px 0px;
+  letter-spacing: 0.5px;
+}
+.user-icon{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.user-icon i{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+  margin: 0 10px;
+  color:blueviolet;
+}
+.user-icon i h5{
+  font-size: 12px;
+  color:black;
+}
+.user-sub{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.user-sub i{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 10px;
+  color:red;
+}
+.user-sub i h5{
+  font-size: 15px;
+  color: black;
+}
+.card-right {
+  width: 60%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-quat{
+  margin: 10px 0px 10px;
+}
+.user-quat h4{
+  color: blueviolet;
+}
+.user-des{
+  margin: 0px 10px;
+}
+.user-des h5{
+  font-size: 15px;
+}
+.user-des p{
+  margin: 5px 0px 10px 10px;
+  font-size: 14px;
+}
+.user-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px;
+
+}
+.user-footer .user-social i{
+  color: blueviolet;
+  font-size: 17px;
+  margin: 0px 10px;
+}
+
+@media screen and (max-width:600px) {
+  .card-box {
+    width: 480px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width:500px) {
+  .card-box {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-left img {
+    width: 40px;
+  }
+  .user-name h3{
+    margin: 5px 0px;
+    font-size: 15px;
+  }
+  .user-icon{
+    padding: 5px 0px;
+    margin: 0px 0px 5px;
+  }
+  .user-icon i{
+    font-size: 13px;
+    margin: 0 5px;
+  }
+  .user-icon i h5{
+    font-size: 10px;
+  }
+  .user-sub{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .user-sub i{
+    font-size: 15px;
+  }
+  .user-sub i h5{
+    font-size: 12px;
+  }
+
+
+  .user-quat{
+    margin: 0px 0px 5px;
+  }
+  .user-quat h4{
+    font-size: 12px;
+    color: blueviolet;
+  }
+  .user-des{
+    margin: 0px 5px;
+  }
+  .user-des h5{
+    font-size: 12px;
+  }
+  .user-des p{
+    margin: 5px 0px 0px 0px;
+    font-size: 10px;
+  }
+  .user-footer{
+    margin: 0px 0px;
+  }
+  .user-footer h5{
+    font-size: 10px;
+  }
+  .user-footer .user-social i{
+    font-size: 13px;
+    margin: 0px 0px;
+  }
+}
